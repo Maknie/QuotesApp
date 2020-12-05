@@ -1,0 +1,58 @@
+#AddForm {
+    background-color:  #449dd1;
+    width: 40%;
+    min-height: 30vh;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#form {
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.recipeText {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: grey;
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+}
+
+.recipeText:focus {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+}
+
+.recipeText::placeholder{
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+}
+
+#submitBtn{
+    background-color: #02558d;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 24px;
+    outline: none;
+    font-family: 'Nerko One', cursive;
+    letter-spacing: 2px;
+}
